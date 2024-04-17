@@ -1,0 +1,72 @@
+#login .container {
+    background-color: #f3dfc5 ;
+    width: 100% !important;
+    margin-top: 50px;
+    border-radius: 10px;
+  }
+  
+  #login .main-section .col-md-6 > .first {
+    text-align: center;
+  }
+  
+  #login .main-section {
+    display: flex ;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  #login .main-section img {
+    /* width: 70%; */
+    /* border-radius: 10px; */
+  }
+  
+  /* .logo {
+    display: flex;
+    justify-content: center;
+  } */
+  
+  #login.logo>img {
+    width: 30%;
+  }
+  
+  #login.form-section {
+    flex: 1;
+    margin: 20px;
+  }
+  
+  #login button {
+    background-color: #fe6413 !important;
+    border: none !important;
+    margin-top: 10px !important;
+    color: #000;
+  }
+  @media (max-width: 782px) {
+      #login  .main-section .col-md-6 .first {
+      display: none;
+    }
+      #login  .logo>img {
+      width: 30%;
+    }
+  }
+  @media (max-width: 782px) {
+      #login .container {
+      background-color: #f3dfc5;
+      width: 80%;
+      margin-top: 50px;
+      border-radius: 10px;
+    }}
+    @media (max-width: 768px) {
+        #login .col-md-6 {
+          flex: 0 0 auto;
+          /* width: 48% ; */
+      }
+        #login .main-section {
+        display: block ;
+        align-items: center;
+        padding: 20px;
+    }
+      
+  }
+  
+  
+  /* login css end  */
