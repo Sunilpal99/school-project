@@ -27,7 +27,7 @@ const Login = () => {
         
             window.location.href = "../Dashboard";
         } else {
-            alert("Please enter correct credentials");
+            alert("Please enter correct all credentials");
         }
     }
     
