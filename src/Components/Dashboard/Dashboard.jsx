@@ -79,7 +79,7 @@ const Dashboard = () => {
                 <div className='col-md-6 col-sm-12 p-2 position-relative' data-aos="flip-down">
                   <img src="../../../public/image/women.jpg" className='w-100' alt="Women" />
                   <div className="image-overlay">
-                    <h1 className='image-text'>WOMEN</h1>
+                    <h1 className='image-text'>WOMENs</h1>
                   </div>
                 </div>
               </div>
