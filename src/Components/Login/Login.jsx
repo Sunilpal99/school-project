@@ -55,7 +55,7 @@ const Login = () => {
                                     <input type="password" id="password" className="form-control" required />
                                     <button type="submit" className="btn btn-primary" onClick={handleLogin}>Login</button>
                                     {/* <input type="button" /> */}
-                                    <p className="text-center m-0">Don't have an account? Sign up <Link to="/signup"><span>here</span></Link></p>
+                                    <p className="text-center m-0">Don't hav an account? Sign up <Link to="/signup"><span>here</span></Link></p>
                                 </form>
                             </div>
                         </div>
