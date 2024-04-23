@@ -10,6 +10,8 @@ import Footer from './Components/Footer/Footer'
 import { Sidebar } from 'react-pro-sidebar'
 import Desk_of_director from './Components/Desk Of Director/Desk_of_director'
 import Desk_of_principal from './Components/Desk Of  Principal/Desk_of_principal'
+import Board_result from './Components/Board Result/Board_result'
+import Activities from './Components/Activities/Activities'
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
         <Route path='/course' element={<Course />} />
         <Route path='/desk_of_director' element={<Desk_of_director />} />
         <Route path='/desk_of_principal' element={<Desk_of_principal />} />
+        <Route path='/board_result' element={<Board_result />} />
+        <Route path='/activities' element={<Activities />} />
         
       </Routes>
       <Footer

@@ -67,13 +67,13 @@ const items = [
       {
         key: '3',
         label: (
-          <Link to="#">Inclusive Practices </Link>
+          <Link to="/board_result">Inclusive Practices </Link>
         ),
       },
       {
         key: '4',
         label: (
-          <Link to="#"> Board Results </Link>
+          <Link to="/board_result"> Board Results </Link>
         ),
       }
     ]
@@ -86,6 +86,12 @@ const items = [
         key: '1',
         label: (
           <Link to="#">  Contact Information</Link>
+        ),
+      },
+      {
+        key: '1',
+        label: (
+          <Link to="/activities">Curriculm</Link>
         ),
       },
     ]
