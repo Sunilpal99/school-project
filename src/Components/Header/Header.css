@@ -13,3 +13,7 @@ a:hover{
 .navbar-brand img{
     width: 35%;
 }
+.navbar-brand2 img {
+    width: 50%;
+    border-radius: 25px;
+}

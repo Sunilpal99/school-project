@@ -3,6 +3,7 @@ import React, { Children, useState } from 'react'
 import { NavLink } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
+
 import { Button, Dropdown, Space } from 'antd';
 import { DownOutlined,HomeOutlined } from '@ant-design/icons';
 import './Header.css'
@@ -105,6 +106,12 @@ const items = [
           <Link to="">  Logout</Link>
         ),
       },
+      {
+        key: '1',
+        label: (
+          <Link to="">  Another Action</Link>
+        ),
+      },
     ]
   },
 ];
@@ -118,40 +125,32 @@ const items = [
             <a className="navbar-brand" href="#" style={{}}>
               <img src="/public/image/sns-new-logo.png" alt="" />
             </a>
-            <button
+            {/* <button
               className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation" >
               <span className="navbar-toggler-icon"></span>
-            </button>
+            </button> */}
             <div className="collapse navbar-collapse" id="navbarTogglerDemo01" style={{ gap: '10px' }}>
-                        <ul className="navbar-nav ms-auto mb-2 mb-lg-0 fw-bold" style={{ gap: '10px' }}>
-                            {items.map((category, index) => (
-                                <li key={index} className="nav-item">
-                                    <Space direction="vertical">
-                                        <Space wrap>
-                                            <Dropdown menu={{ items: category.Children }} placement="bottom">
-                                                <Button>
-                                                    <Space>
-                                                    <span className="menu-title">{category.title} <DownOutlined /> </span>
-                                                    </Space>
-                                                </Button>
-                                            </Dropdown>
-                                        </Space>
-                                    </Space>
-                                </li>
-                            ))}
-                        </ul>
-                        <form className="d-flex">
-                            <input
-                                className="form-control me-2"
-                                value={inputValue}
-                                onChange={handleInputChange}
-                                type="text"
-                                maxLength="10"
-                                placeholder="Search"
-                            />
-                            <p className="text-danger">{inputValue}</p>
-                        </form>
-                    </div>
+              <ul className="navbar-nav ms-auto mb-2 mb-lg-0 fw-bold" style={{ gap: '10px' }}>
+                {items.map((category, index) => (
+                  <li key={index} className="nav-item">
+                    <Space direction="vertical">
+                      <Space wrap>
+                        <Dropdown menu={{ items: category.Children }} placement="bottom">
+                          <Button>
+                            <Space>
+                            <span className="menu-title">{category.title} <DownOutlined /> </span>
+                            </Space>
+                          </Button>
+                        </Dropdown>
+                      </Space>
+                    </Space>
+                  </li>
+                ))}
+              </ul>
+            <a className="navbar-brand2" href="#" style={{width: '10%', maxWidth: '100px'}}>
+              <img src="/public/image/sunil_pal.jpg" alt="" />
+            </a>
+            </div>
           </div>
         </nav>
     </>
