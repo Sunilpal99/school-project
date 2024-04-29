@@ -8,7 +8,7 @@ const Board_result = () => {
     <>
       <div className="section">
         <div className="content text-center my-2">
-          <h1 className='m-5'>Board Results</h1>
+          <h1 className='m-5'>Board Result</h1>
           
           <div className="row row-cols-1 row-cols-md-2 p-3 justify-content-evenly" style={{ margin: '20px',boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)' }}> 
             <div className="col" >
